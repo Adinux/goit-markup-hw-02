@@ -44,9 +44,16 @@
  
 }
 .header__navigation a:hover{
-    border-bottom: 3px solid var(--light-blue);
-   
+    border-bottom: 3px solid var(--light-blue)
+
 }
+
+.header__navigation a:focus{
+    color: var(--light-blue);
+    border-bottom: none;
+}
+
+
 .header__info a{
     font-family: var(--primary-font);
     font-weight: 500;
@@ -60,6 +67,11 @@
 .header__info a:hover{
     border-bottom: 3px solid var(--light-blue);
 
+}
+
+.header__info a:focus{
+    color: var(--light-blue);
+    border-bottom: none;
 }
 
 .header__requesting button{
@@ -109,7 +121,11 @@
 /*About section style*/
 
 .about{
+   
+}
 
+.about__list{
+    list-style: none;
 }
 
 .about__subtitle{
@@ -119,6 +135,7 @@
     line-height: 16px;
     text-transform: uppercase;
     color: var(--black);
+    list-style: none;
 
 }
 
