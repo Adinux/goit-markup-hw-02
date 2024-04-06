@@ -1,0 +1,217 @@
+:root {
+    --light-blue: #2196f3;
+    --black: #212121;
+    --white: #ffffff;
+    --grey: #757575;
+    --dark-grey: #2f303a;
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+}
+
+/* Header section style*/
+
+.header {
+    background-color: var(--white);
+}
+.header__logo{
+    text-decoration: none;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #000000;
+
+}
+    .header__logo__name{
+        color: #2196f3;
+
+}
+
+.header__navigation ul{
+    list-style: none;
+
+}
+
+.header__navigation a{
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--black);
+    list-style: none;
+    text-decoration: none;
+
+ 
+}
+.header__navigation a:hover{
+    border-bottom: 3px solid var(--light-blue);
+   
+}
+.header__info a{
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--grey) ;
+    text-decoration: none;
+
+}
+
+.header__info a:hover{
+    border-bottom: 3px solid var(--light-blue);
+
+}
+
+.header__requesting button{
+    
+}
+
+/* Hero section style*/
+
+.hero-section{
+    background-color: var(--dark-grey);
+
+}
+
+.hero-section__title{
+    font-family: var(--primary-font);
+    font-weight: 900
+    font-size: 44px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: var(--white);
+    
+}
+.hero-section__title:hover{
+    text-decoration: underline;
+    text-decoration-color: var(--light-blue);
+} 
+   
+
+.button{
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--white);
+    background-color: var(--light-blue);
+    cursor: pointer;
+    border-radius: 4px;
+    
+}
+
+.button:hover{
+    background-color: var(--light-blue);
+    width: 200px;
+    height: 50px;
+}
+
+/*About section style*/
+
+.about{
+
+}
+
+.about__subtitle{
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: var(--black);
+
+}
+
+.about__text{
+    font-family: var(--primary-font)
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--grey);
+
+}
+
+/* What we do style*/
+
+.occupation__subtitle{
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: var(--black);
+
+}
+
+/* Team section style*/
+
+.team{
+
+}
+
+.team__subtitle{
+    font-family: var(--primary-font)
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: var(--black);
+
+}
+
+
+.team__name{
+    font-family: var(--primary-font);
+    font-weight: 500
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--black)
+}
+
+.team__job{
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--grey);
+
+}
+
+/* Footer section style*/
+
+.footer{
+    background-color: var(--dark-grey);
+}
+
+.footer__logo{
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.footer__logo__name{
+    color: #2196f3;
+
+}
+
+.contact{
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--white);
+    text-decoration: none;
+
+}
+.contact a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+
+
+

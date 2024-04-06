@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./styles/styles.css ">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/styles.css" />
     
 </head>
+
 <body>
     <!--Header section-->
-    <header>
-        <a href="#"><p><span>Web</span>Studio</p></a>
-        <nav>
+    <header class="header">
+        <a href="#" class="header__logo"><p><span class="header__logo__name">Web</span>Studio</p></a>
+   <nav class="header__navigation">
             <ul>
                 <li><a href="#" >Studio</a></li>
                 <li><a href="#" >Portfolio</a></li>
@@ -20,7 +24,7 @@
         </nav>
 
         <!--Contacts information-->
-        <div>
+        <div class="header__info">
             <a href="mailto:info@devstudio.com">info@devstudio.com</a>
             <a href="tel:+1212-772-4150">+1 212-772-4150</a>
     </div>
@@ -29,21 +33,22 @@
 <!--Important part of the website-->
 <main>
     <!--Hero section-->
-    <section>
-        <h1>EFFECTIVE SOLUTIONS FOR<br > YOUR BUSINESS</h1>
-        <h5>Request our service</h5>
+    <section class="hero-section">
+        <h1 class="hero-section__title">EFFECTIVE SOLUTIONS FOR<br > YOUR BUSINESS</h1>
+        <button class="header__requesting button" type="button">Request our service</button>
     </section>
+    
 
     <!--About section-->
-    <section>
+    <section class="about">
         <!--Descriptive information-->
         <div style="display: flex; gap: 30px">
             <!--details info-->
                 <div>
                 <ul>
             <li>
-        <h5>ATTENTION TO DETAILS</h5>
-        <p>We go into all the details and processes
+        <h5 class="about__subtittle">ATTENTION TO DETAILS</h5>
+        <p class="about__text">We go into all the details and processes
             of your business to develop a 
             customized solution.</p>
         </li>
@@ -53,8 +58,8 @@
     <div>
 <ul>
     <li>
-        <h5>PUNCTUALITY</h5>
-        <p>With us, you can feel safe and secure. 
+        <h5 class="about__subtitle">PUNCTUALITY</h5>
+        <p class="about__text">With us, you can feel safe and secure. 
             An important principle of the company: 
             respect your time and deadlines.</p>
             </li>
@@ -64,8 +69,8 @@
     <div>
 <ul>
     <li>
-            <h5>PLANNING</h5>
-            <p>You will be able to observe and participate
+            <h5 class="about__subtitle">PLANNING</h5>
+            <p class="about__text">You will be able to observe and participate
                  in every phase of solution development and 
                  implementation.</p>
 </li>
@@ -75,8 +80,8 @@
 <div>
 <ul>
     <li>
-        <h5>MODERN TECHNOLOGIES</h5>
-         <p>We use innovative tools to solve assigned tasks.
+        <h5 class="about__subtitle">MODERN TECHNOLOGIES</h5>
+         <p class="about__text">We use innovative tools to solve assigned tasks.
             It's time to simplify work processes.</p>
         </li>
     </ul>
@@ -84,8 +89,8 @@
 </div>
 </section>
 <!--What we do section-->
-<section>
-    <h2>What we do</h2>
+<section class="occupation">
+    <h2 class="occupation__subtitle">What we do</h2>
     <div style="display: flex; gap: 30px">
     <div><img src="./images/img-1.jpg"  alt="person working at pc" width="250" height="200">
     <img src="./images/img-2.jpg"  alt="person working with mobile phone and pc" width="250" height="200">
@@ -95,39 +100,39 @@
 </section>
 
 <!--Team section-->
-<section>
-    <h2>Our Team</h2>
+<section class="team">
+    <h2 class="team__subtitle">Our Team</h2>
     <!--container with members of the team-->
     <div style="display: flex; gap: 30px" >
         <!--1st container-->
         <div><img src="./images/img-4.jpg" alt="photo of a happy man" width="150">
-        <p><b>Christopher Walker</b></p>
-        <p>Product Designer</p>
+        <p class="team__name"><b>Christopher Walker</b></p>
+        <p class="team__job">Product Designer</p>
     </div>
     <!--2nd container-->
     <div><img src="./images/img-5.jpg" alt="photo of a smiling woman" width="150">
-        <p><b>Kylie Evans</b></p>
-        <p>Frontend Developer</p>
+        <p class="team__name"><b>Kylie Evans</b></p>
+        <p class="team__job">Frontend Developer</p>
     </div>
     <!--3rd container-->
     <div><img src="./images/img-6.jpg" alt="photo of a smiling man" width="150">
-        <p><b>Ryan Harris</b></p>
-        <p>Marketing</p>
+        <p class="team__name"><b>Ryan Harris</b></p>
+        <p class="team__job">Marketing</p>
     </div>
     <!--4th container-->
     <div><img src="./images/img-7.jpg" alt="photo of a proud man" width="150">
-        <p><b>Tyler Moore</b></p>
-        <p>UI Designer</p>
+        <p class="team__name"><b>Tyler Moore</b></p>
+        <p class="team__job">UI Designer</p>
     </div>
 </div>
 </section>
 </main>
 
 <!--Footer section-->
-    <footer>
-        <a href="#"><p><span>Web</span>Studio</p></a>
-        <address>695 Park Ave, NY 10065, USA</address>
-        <address>
+    <footer class="footer">
+        <a href="#" class="footer__logo"><p><span class="footer__logo__name">Web</span>Studio</p></a>
+        <address class="contact">
+         Park Ave, NY 10065, USA <br>
             <a href="mailto:info@devstudio.com">info@devstudio.com</a> <br>
             <a href="tel:+1212-772-4150">+1 212-772-4150</a>
         </address>
