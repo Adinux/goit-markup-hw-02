@@ -1,0 +1,145 @@
+
+:root {
+    --light-blue: #2196f3;
+    --black: #212121;
+    --white: #ffffff;
+    --grey: #757575;
+    --dark-grey: #2f303a;
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+}
+
+/* Header section style1*/
+.header{
+    background-color: var(--white);
+    list-style: none;
+
+}
+.header a:hover{
+    text-decoration: underline;
+    text-decoration-color: var(--light-blue);
+}
+
+.header__logo{
+    text-decoration: none;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #000000;
+
+}
+
+.header__logo__name{
+    color: var(--light-blue);
+
+}
+
+.header__logo__name:hover{
+    border-bottom: 3px solid var(--light-blue)
+}
+
+.header__navigation ul{
+    list-style: none;
+    
+}
+
+.header__navigation a{
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--black);
+    text-decoration: none; 
+
+}
+   
+.header__info a{
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--grey) ;
+    text-decoration: none;
+}
+
+.header__info a:focus, .header__navigation a:focus{
+    color: var(--light-blue);
+    border-bottom: none;
+    border: 4px;
+    border-style: solid;
+}
+
+
+
+
+/* Projects sections tyle*/
+
+.projects__container:hover{
+    border: 4px;
+    border-style: solid;
+    border-color: var(--light-blue);
+    cursor: pointer;
+}
+
+.projects__list{
+    list-style: none;
+}
+
+.projects__list a{
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--black);
+    text-decoration: none;
+    
+}
+
+.projects__list li:hover{
+    border: 4px;
+    color: var(--light-blue);
+    border-style: solid;
+    cursor: pointer;
+}
+
+
+
+
+/* Footer style*/
+
+
+.footer{
+    background-color: var(--dark-grey);
+}
+
+.footer__logo{
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.footer__logo__name{
+    color: #2196f3;
+
+}
+
+.contact{
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--white);
+    text-decoration: none;
+
+}
+.contact a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+

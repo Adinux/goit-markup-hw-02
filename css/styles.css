@@ -40,11 +40,10 @@
     color: var(--black);
     list-style: none;
     text-decoration: none;
-
- 
 }
+
 .header__navigation a:hover{
-    border-bottom: 3px solid var(--light-blue)
+    border-bottom: 3px solid var(--light-blue);
 
 }
 
@@ -52,7 +51,6 @@
     color: var(--light-blue);
     border-bottom: none;
 }
-
 
 .header__info a{
     font-family: var(--primary-font);
@@ -226,3 +224,4 @@
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
 }
+
