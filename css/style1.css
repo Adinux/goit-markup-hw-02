@@ -72,7 +72,6 @@
 
 
 
-
 /* Projects sections tyle*/
 
 .projects__container:hover{
@@ -104,10 +103,7 @@
 }
 
 
-
-
 /* Footer style*/
-
 
 .footer{
     background-color: var(--dark-grey);
