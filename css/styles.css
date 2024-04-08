@@ -15,6 +15,7 @@
     font-family: var(--primary-font)
  color: rgba(255, 255, 255, 0.6);
     background-color: var(--white);
+    text-align: center;
 
 }
 
@@ -248,6 +249,7 @@
     font-family: var(--primary-font);
     color: rgba(255, 255, 255, 0.6);
     background-color: var(--white);
+    text-align: center;
 
 }
 
