@@ -9,6 +9,15 @@
     --secondary-font: 'Raleway', sans-serif;
 }
 
+/* Body section style*/
+
+.body{
+    font-family: var(--primary-font)
+ color: rgba(255, 255, 255, 0.6);
+    background-color: var(--white);
+
+}
+
 /* Header section style*/
 .header {
     background-color: var(--white);
@@ -188,7 +197,7 @@
 
 }
 
-/* Footer section style*/
+/* Footer section style */
 
 .footer{
     background-color: var(--dark-grey);
@@ -233,7 +242,14 @@
 }
 
 
+/* Body section style*/
 
+.body{
+    font-family: var(--primary-font);
+    color: rgba(255, 255, 255, 0.6);
+    background-color: var(--white);
+
+}
 
 /* Header section portfolio style*/
 
